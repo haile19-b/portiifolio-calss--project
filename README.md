@@ -1,5 +1,7 @@
 # Dockerized Personal Portfolio
 
+![Portfolio Screenshot](screenshot.png)
+
 A modern, responsive, and professional personal portfolio website built as a university-level class project. The application highlights skills in full-stack development, specifically tailored for a developer working with the MERN stack, Next.js, Python, and n8n.
 
 ## Features
