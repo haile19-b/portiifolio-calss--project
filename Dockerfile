@@ -10,6 +10,9 @@ RUN a2enmod autoindex
 # Copy Apache configuration
 COPY apache-config.conf /etc/apache2/sites-available/000-default.conf
 
+# Copy application source files
+COPY ./src /var/www/html
+
 # Enable the site configuration
 RUN a2ensite 000-default
 
